@@ -1,16 +1,22 @@
-## Hi there 👋
+ Hi, I’m Harshita 👋
 
-<!--
-**Harshi-coder17/Harshi-coder17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 B.Tech CSE | 2nd Year @ Thapar Institute  
+🔐 Cybersecurity | Python | Real-world tech for impact  
+💡 Exploring: Ethical hacking, system security, automation
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🚀 Currently Working On:
+- Password Generator (Python)
+- File Encryption Tool
+- Email Spoofer (for awareness)
+
+---
+
+🌱 Societies & Roles:
+- **Pratigya** – Volunteer teacher and event organizer  
+- **Enactus** – Social media + video editing  
+- **Aspiring CCS member** – Eager to build and collaborate on tech projects
+
+📫 Let’s connect on [LinkedIn](https://www.linkedin.com/in/harshisingla)
+
