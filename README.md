@@ -6,13 +6,6 @@
 
 ---
 
-# 🚀 Currently Working On
-- 🔐 Password Generator (Python)
-- 📧 Email Spoofer (awareness tool)
-- 🔏 File Encryption Tool
-
----
-
 📫 Let’s connect on [LinkedIn](https://www.linkedin.com/in/harshisingla)
 
 > “Learning is my constant. Impact is my goal.”
