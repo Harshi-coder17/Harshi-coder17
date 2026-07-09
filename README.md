@@ -69,13 +69,16 @@ Help secure the digital world.
 # 📊 GitHub Analytics
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Harshi-coder17&show_icons=true&theme=tokyonight"/>
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Harshi-coder17&theme=tokyonight"/>
+<img height="170" src="https://github-profile-trophy.vercel.app/?username=Harshi-coder17&theme=tokyonight&no-frame=true&column=3&margin-w=10"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Harshi-coder17&theme=tokyo-night&hide_border=true"/>
 </p>
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshi-coder17&layout=compact&theme=tokyonight"/>
-</p>
+<a href="https://github.com/Harshi-coder17/AURA">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/pin/?username=Harshi-coder17&repo=AURA&theme=tokyonight"/>
+</a>
+<a href="https://github.com/Harshi-coder17/chain-of-custody">
+  <img height="170"src="https://github-readme-stats.vercel.app/api/pin/?username=Harshi-coder17&repo=chain-of-custody&theme=tokyonight"/>
+</a>
 
 ---
 
