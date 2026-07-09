@@ -1,0 +1,50 @@
+<svg width="900" height="210" viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="edgeA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="208" rx="12" fill="#0B0B15" stroke="#2A2547" stroke-width="1.4"/>
+  <rect x="1" y="1" width="898" height="4" rx="2" fill="url(#edgeA)"/>
+
+  <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" letter-spacing="3" font-weight="700" fill="#E5E7EB">SOC ANALYST VIEW // LIVE STATUS</text>
+  <line x1="40" y1="52" x2="860" y2="52" stroke="#221F3B" stroke-width="1"/>
+
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+    <!-- 4 stat blocks -->
+    <g transform="translate(40,74)">
+      <text x="0" y="0" font-size="11" letter-spacing="1" fill="#6B7280">PRIMARY STACK</text>
+      <text x="0" y="26" font-size="15" fill="#22D3EE" font-weight="700">Python · FastAPI</text>
+      <text x="0" y="46" font-size="12" fill="#8A90A3">PyTorch · Docker</text>
+    </g>
+
+    <line x1="245" y1="66" x2="245" y2="130" stroke="#221F3B" stroke-width="1"/>
+
+    <g transform="translate(270,74)">
+      <text x="0" y="0" font-size="11" letter-spacing="1" fill="#6B7280">CORE FOCUS</text>
+      <text x="0" y="26" font-size="15" fill="#A78BFA" font-weight="700">AI + Security</text>
+      <text x="0" y="46" font-size="12" fill="#8A90A3">ML · Forensics · Offense</text>
+    </g>
+
+    <line x1="495" y1="66" x2="495" y2="130" stroke="#221F3B" stroke-width="1"/>
+
+    <g transform="translate(520,74)">
+      <text x="0" y="0" font-size="11" letter-spacing="1" fill="#6B7280">CURRENT BUILD</text>
+      <text x="0" y="26" font-size="15" fill="#22D3EE" font-weight="700">Phishing Detection ML</text>
+      <text x="0" y="46" font-size="12" fill="#8A90A3">Threat-intel enriched dataset</text>
+    </g>
+
+    <line x1="730" y1="66" x2="730" y2="130" stroke="#221F3B" stroke-width="1"/>
+
+    <g transform="translate(752,74)">
+      <text x="0" y="0" font-size="11" letter-spacing="1" fill="#6B7280">STATUS</text>
+      <text x="0" y="26" font-size="15" fill="#22D3EE" font-weight="700">● ONLINE</text>
+      <text x="0" y="46" font-size="12" fill="#8A90A3">shipping code</text>
+    </g>
+  </g>
+
+  <line x1="40" y1="148" x2="860" y2="148" stroke="#221F3B" stroke-width="1"/>
+  <text x="450" y="178" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#5EEAD4" opacity="0.85">no external widgets were harmed in the making of this dashboard</text>
+</svg>

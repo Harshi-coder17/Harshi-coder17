@@ -1,0 +1,33 @@
+<svg width="900" height="170" viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0C0716"/>
+      <stop offset="50%" stop-color="#120B22"/>
+      <stop offset="100%" stop-color="#08131A"/>
+    </linearGradient>
+    <linearGradient id="footEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D28D9" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="168" rx="12" fill="url(#footBg)" stroke="#2A2547" stroke-width="1.2"/>
+  <rect x="20" y="1" width="860" height="2" fill="url(#footEdge)"/>
+
+  <text x="450" y="62" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="15" font-style="italic" fill="#B4B9C6">
+    "There is no perfectly secure system.
+  </text>
+  <text x="450" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="15" font-style="italic" fill="#B4B9C6">
+    Only systems that haven't been tested enough."
+  </text>
+
+  <line x1="390" y1="106" x2="510" y2="106" stroke="#8B5CF6" stroke-width="1" opacity="0.5"/>
+
+  <text x="450" y="134" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14" letter-spacing="2" fill="#22D3EE">
+    See you in the logs<tspan fill="#5EEAD4">_</tspan>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="450" y="156" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10.5" letter-spacing="1" fill="#5B5F73">connection closed :: session logged</text>
+</svg>

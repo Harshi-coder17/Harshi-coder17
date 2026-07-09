@@ -1,0 +1,81 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07070D"/>
+      <stop offset="100%" stop-color="#0C0C18"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="circuit" width="90" height="90" patternUnits="userSpaceOnUse">
+      <path d="M0 45 H30 M30 45 V15 H60 M60 45 H90 M45 90 V60 H75" stroke="#221F3B" stroke-width="1" fill="none"/>
+      <circle cx="30" cy="15" r="2" fill="#221F3B"/>
+      <circle cx="75" cy="60" r="2" fill="#221F3B"/>
+      <circle cx="0" cy="45" r="1.6" fill="#2A2547"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="900" height="280" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="280" fill="url(#bgGrad)"/>
+    <rect width="900" height="280" fill="url(#circuit)" opacity="0.55"/>
+
+    <!-- scanline sweep -->
+    <rect x="0" width="900" height="3" fill="#22D3EE" opacity="0.35">
+      <animate attributeName="y" values="0;280;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.45;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner brackets -->
+    <g stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M18 42 V18 H42"/>
+      <path d="M858 18 H882 V42"/>
+      <path d="M882 238 V262 H858"/>
+      <path d="M42 262 H18 V238"/>
+    </g>
+
+    <!-- boot sequence -->
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" fill="#5EEAD4">
+      <text x="34" y="46" opacity="0">
+        &gt; establishing secure connection...
+        <animate attributeName="opacity" values="0;1;1;1" keyTimes="0;0.05;0.9;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="34" y="66" fill="#22D3EE" opacity="0">
+        &gt; authentication successful
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.25;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="34" y="86" fill="#A78BFA" opacity="0">
+        &gt; welcome back, harshita_
+        <animate attributeName="opacity" values="0;0;1;0.4;1" keyTimes="0;0.3;0.4;0.7;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- main title -->
+    <text x="450" y="168" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="64" font-weight="700" letter-spacing="10" fill="url(#titleGrad)" filter="url(#glow)">
+      HARSHITA
+    </text>
+
+    <text x="450" y="205" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" letter-spacing="5" fill="#B4B9C6">
+      CYBERSECURITY&#160;&#160;•&#160;&#160;AI&#160;&#160;•&#160;&#160;DIGITAL&#160;FORENSICS
+    </text>
+
+    <line x1="330" y1="222" x2="570" y2="222" stroke="#22D3EE" stroke-width="1" opacity="0.5"/>
+
+    <text x="450" y="252" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="2" fill="#5EEAD4" opacity="0.85">
+      root@github :: securing the stack
+    </text>
+  </g>
+
+  <rect x="1" y="1" width="898" height="278" rx="10" fill="none" stroke="#2A2547" stroke-width="1"/>
+</svg>

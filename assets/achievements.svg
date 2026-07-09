@@ -1,0 +1,43 @@
+<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="edgeM" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="288" rx="12" fill="#0B0B15" stroke="#2A2547" stroke-width="1.4"/>
+  <rect x="1" y="1" width="898" height="4" rx="2" fill="url(#edgeM)"/>
+
+  <text x="450" y="40" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="17" letter-spacing="4" font-weight="700" fill="#E5E7EB">MISSION LOG</text>
+  <line x1="40" y1="54" x2="860" y2="54" stroke="#221F3B" stroke-width="1"/>
+
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14.5">
+    <!-- rows: checkmark, entry, tag -->
+    <g fill="#22D3EE"><text x="52" y="88">✓</text></g>
+    <text x="80" y="88" fill="#E5E7EB">ET Gen AI Hackathon</text>
+    <text x="330" y="88" fill="#8A90A3">— Semi-Finalist, with AURA</text>
+
+    <g fill="#22D3EE"><text x="52" y="120">✓</text></g>
+    <text x="80" y="120" fill="#E5E7EB">Snapdragon Multiverse Hackathon</text>
+    <text x="460" y="120" fill="#8A90A3">— Built ARGUS</text>
+
+    <g fill="#22D3EE"><text x="52" y="152">✓</text></g>
+    <text x="80" y="152" fill="#E5E7EB">India Runs x Redrob Ideathon</text>
+    <text x="420" y="152" fill="#8A90A3">— Built Saathi, team OneMind</text>
+
+    <g fill="#22D3EE"><text x="52" y="184">✓</text></g>
+    <text x="80" y="184" fill="#E5E7EB">EY Techathon</text>
+    <text x="255" y="184" fill="#8A90A3">— Competed</text>
+
+    <g fill="#22D3EE"><text x="52" y="216">✓</text></g>
+    <text x="80" y="216" fill="#E5E7EB">TryHackMe</text>
+    <text x="255" y="216" fill="#8A90A3">— Active Learner</text>
+
+    <g fill="#22D3EE"><text x="52" y="248">✓</text></g>
+    <text x="80" y="248" fill="#E5E7EB">CruxHunt CTF</text>
+    <text x="285" y="248" fill="#8A90A3">— Writeups Published</text>
+  </g>
+
+  <line x1="40" y1="264" x2="860" y2="264" stroke="#221F3B" stroke-width="1"/>
+</svg>

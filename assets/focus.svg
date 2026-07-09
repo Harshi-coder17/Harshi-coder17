@@ -1,0 +1,38 @@
+<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="focusFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="268" rx="12" fill="#0B0B15" stroke="#2A2547" stroke-width="1.4"/>
+  <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="17" letter-spacing="3" font-weight="700" fill="#E5E7EB">CURRENT FOCUS</text>
+  <line x1="40" y1="52" x2="860" y2="52" stroke="#221F3B" stroke-width="1"/>
+
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13.5">
+    <text x="48" y="82" fill="#E5E7EB">Phishing Detection ML Engine</text>
+    <rect x="48" y="92" width="804" height="9" rx="4.5" fill="#161327"/>
+    <rect x="48" y="92" width="0" height="9" rx="4.5" fill="url(#focusFill)">
+      <animate attributeName="width" values="0;690" dur="1.8s" begin="0.1s" fill="freeze"/>
+    </rect>
+
+    <text x="48" y="130" fill="#E5E7EB">Threat-Intel Enrichment Pipelines</text>
+    <rect x="48" y="140" width="804" height="9" rx="4.5" fill="#161327"/>
+    <rect x="48" y="140" width="0" height="9" rx="4.5" fill="url(#focusFill)">
+      <animate attributeName="width" values="0;620" dur="1.8s" begin="0.3s" fill="freeze"/>
+    </rect>
+
+    <text x="48" y="178" fill="#E5E7EB">Digital Forensics &amp; Incident Reconstruction</text>
+    <rect x="48" y="188" width="804" height="9" rx="4.5" fill="#161327"/>
+    <rect x="48" y="188" width="0" height="9" rx="4.5" fill="url(#focusFill)">
+      <animate attributeName="width" values="0;560" dur="1.8s" begin="0.5s" fill="freeze"/>
+    </rect>
+
+    <text x="48" y="226" fill="#E5E7EB">Secure Backend Architecture</text>
+    <rect x="48" y="236" width="804" height="9" rx="4.5" fill="#161327"/>
+    <rect x="48" y="236" width="0" height="9" rx="4.5" fill="url(#focusFill)">
+      <animate attributeName="width" values="0;500" dur="1.8s" begin="0.7s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>

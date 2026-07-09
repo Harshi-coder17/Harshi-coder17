@@ -1,0 +1,54 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardEdge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <text x="450" y="30" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="18" letter-spacing="4" font-weight="700" fill="#E5E7EB">TECH ARSENAL</text>
+
+  <!-- template macro via repeated groups -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+
+    <!-- OFFENSIVE -->
+    <g transform="translate(30,50)">
+      <rect width="410" height="140" rx="10" fill="#0B0B15" stroke="#2A2547" stroke-width="1.2"/>
+      <rect width="4" height="140" fill="url(#cardEdge)"/>
+      <text x="24" y="34" font-size="15" letter-spacing="2" font-weight="700" fill="#22D3EE">OFFENSIVE</text>
+      <text x="24" y="64" font-size="13" fill="#B4B9C6">▸ Burp Suite</text>
+      <text x="24" y="88" font-size="13" fill="#B4B9C6">▸ Nmap</text>
+      <text x="24" y="112" font-size="13" fill="#B4B9C6">▸ Web &amp; Network Security</text>
+    </g>
+
+    <!-- AI / ML -->
+    <g transform="translate(460,50)">
+      <rect width="410" height="140" rx="10" fill="#0B0B15" stroke="#2A2547" stroke-width="1.2"/>
+      <rect width="4" height="140" fill="url(#cardEdge)"/>
+      <text x="24" y="34" font-size="15" letter-spacing="2" font-weight="700" fill="#A78BFA">AI / ML</text>
+      <text x="24" y="64" font-size="13" fill="#B4B9C6">▸ PyTorch</text>
+      <text x="24" y="88" font-size="13" fill="#B4B9C6">▸ Transformers</text>
+      <text x="24" y="112" font-size="13" fill="#B4B9C6">▸ scikit-learn</text>
+    </g>
+
+    <!-- BACKEND -->
+    <g transform="translate(30,210)">
+      <rect width="410" height="140" rx="10" fill="#0B0B15" stroke="#2A2547" stroke-width="1.2"/>
+      <rect width="4" height="140" fill="url(#cardEdge)"/>
+      <text x="24" y="34" font-size="15" letter-spacing="2" font-weight="700" fill="#22D3EE">BACKEND</text>
+      <text x="24" y="64" font-size="13" fill="#B4B9C6">▸ FastAPI · Docker</text>
+      <text x="24" y="88" font-size="13" fill="#B4B9C6">▸ Redis · Nginx</text>
+      <text x="24" y="112" font-size="13" fill="#B4B9C6">▸ PostgreSQL · SQLite</text>
+    </g>
+
+    <!-- LANGUAGES & TOOLS -->
+    <g transform="translate(460,210)">
+      <rect width="410" height="140" rx="10" fill="#0B0B15" stroke="#2A2547" stroke-width="1.2"/>
+      <rect width="4" height="140" fill="url(#cardEdge)"/>
+      <text x="24" y="34" font-size="15" letter-spacing="2" font-weight="700" fill="#A78BFA">LANGUAGES &amp; TOOLS</text>
+      <text x="24" y="64" font-size="13" fill="#B4B9C6">▸ Python · C / C++ · SQL</text>
+      <text x="24" y="88" font-size="13" fill="#B4B9C6">▸ Wazuh · GNS3</text>
+      <text x="24" y="112" font-size="13" fill="#B4B9C6">▸ Git · Linux</text>
+    </g>
+  </g>
+</svg>
